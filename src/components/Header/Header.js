@@ -1,9 +1,12 @@
 import headerStyles from './Header.module.scss';
+import Navigation from '../Navigation/Navigation';
+import Logo from '../Logo/Logo';
 
 const Header = () => {
     return (
         <header className={headerStyles.header}>
-            <h1 className={headerStyles.headerLogo}>Header</h1>
+            <Logo />
+            <Navigation />
         </header>
     );
 };

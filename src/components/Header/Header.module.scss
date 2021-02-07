@@ -1,4 +1,8 @@
 .header {
-    border: solid 1px lightblue;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
     height: 7.6rem;
+    position: relative;
 }
