@@ -1,5 +1,14 @@
 .footer {
-    border: solid 1px lightblue;
-    height: 2rem;
-    width: 100%;
+    align-items: flex-end;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+    &-copyrights {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.8rem;
+        margin: 0;
+    }
 }
