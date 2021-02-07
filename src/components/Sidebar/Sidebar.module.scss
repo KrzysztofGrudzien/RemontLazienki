@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+.sidebar {
+    align-items: center;
+    background-color: $color-secondary;
+    box-shadow: 0px 0px 2rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    padding-bottom: 2rem;
+    top: 0;
+    width: 7rem;
+    z-index: 1000;
+}
+
+.sidebarAuthor {
+    font-size: 1.2rem;
+    font-weight: 300;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform-origin: center;
+    transform: rotate(-180deg);
+}
+
+.sidebarIcons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 13rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sidebarLink {
+    color: $color-primary;
+    font-weight: 500;
+    text-decoration: none;
+}

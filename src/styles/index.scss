@@ -1,5 +1,10 @@
 @import-normalize;
 
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
 *,
 *::before,
 *::after {
@@ -8,18 +13,15 @@
     box-sizing: inherit;
 }
 
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
-
 body {
     margin: 0;
     font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
         'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 code {
