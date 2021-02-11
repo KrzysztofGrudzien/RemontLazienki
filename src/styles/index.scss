@@ -1,4 +1,5 @@
 @import-normalize;
+@import '../styles/variables.scss';
 
 html {
     box-sizing: border-box;
@@ -27,4 +28,39 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+}
+
+h2 {
+    font-size: 3.85rem;
+    font-weight: 500;
+    line-height: 5rem;
+    letter-spacing: 0.4px;
+    margin-bottom: 3.6rem;
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    hyphens: auto;
+    line-height: 2.6rem;
+    word-break: break-word;
+}
+
+p.multi-col {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+span#page-id {
+    bottom: 2.7rem;
+    color: $color-additional--light;
+    font-size: 8rem;
+    font-weight: 700;
+    left: 25rem;
+    position: absolute;
+    text-orientation: mixed;
+    transform-origin: center;
+    transform: rotate(-180deg);
+    writing-mode: vertical-lr;
+    z-index: -10;
 }
