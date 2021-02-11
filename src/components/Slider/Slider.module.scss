@@ -1,0 +1,47 @@
+@import '../../styles/variables.scss';
+
+.slider {
+    background-color: silver;
+    box-shadow: -2.2rem 2.2rem 0 $color-additional--light;
+    display: flex;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    height: 56.6rem;
+    position: relative;
+
+    &Img {
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    &NavPrev,
+    &NavNext {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: left 0.3s ease-in, right 0.3s ease-in;
+        width: 4rem;
+    }
+
+    &NavPrev {
+        left: -5rem;
+
+        &:hover {
+            left: -6rem;
+        }
+    }
+
+    &NavNext {
+        right: -4.3rem;
+
+        &:hover {
+            right: -5.3rem;
+        }
+    }
+}
