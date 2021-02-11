@@ -3,6 +3,7 @@ import Sidebar from '../Sidebar/Sidebar';
 import Footer from '../Footer/Footer';
 import Main from '../Main/Main';
 import appStyles from './App.module.scss';
+import PageAbout from '../../pages/About/About';
 
 const App = () => {
     return (
@@ -10,7 +11,9 @@ const App = () => {
             <Sidebar />
             <div className={appStyles.container}>
                 <Header />
-                <Main />
+                <Main>
+                    <PageAbout></PageAbout>
+                </Main>
                 <Footer />
             </div>
         </>
