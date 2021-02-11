@@ -1,0 +1,39 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    position: relative;
+}
+
+.leftTopCorner {
+    height: 1.6rem;
+    position: absolute;
+    top: -2rem;
+    left: -2.8rem;
+    width: 1.6rem;
+}
+
+.leftBottomCorner {
+    height: 1.6rem;
+    position: absolute;
+    bottom: -2rem;
+    left: -2.8rem;
+    width: 1.6rem;
+}
+
+.rightTopCorner {
+    height: 1.6rem;
+    position: absolute;
+    top: -2rem;
+    right: -2.8rem;
+    width: 1.6rem;
+}
+
+.rightBottomCorner {
+    height: 1.6rem;
+    position: absolute;
+    bottom: -2rem;
+    right: -2.8rem;
+    width: 1.6rem;
+}
