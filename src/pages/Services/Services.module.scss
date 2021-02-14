@@ -1,0 +1,50 @@
+@import '../../styles/variables.scss';
+
+.services {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 7;
+    grid-column-end: 13;
+
+    &Cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 2rem;
+    }
+
+    &Card {
+        align-items: center;
+        background-color: $color-primary;
+        color: $color-secondary;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6rem;
+        justify-content: space-between;
+        min-height: 10rem;
+        padding: 2rem 2rem;
+        transition: background-color 0.3s ease-in-out;
+
+        &:hover {
+            background-color: $color-primary--active;
+        }
+    }
+
+    &CardTitle {
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 1rem;
+    }
+
+    &List {
+        align-self: flex-start;
+        list-style: none;
+    }
+
+    &ListItem {
+        font-weight: 300;
+        margin-bottom: 0;
+        padding: 0.3rem 0;
+    }
+}

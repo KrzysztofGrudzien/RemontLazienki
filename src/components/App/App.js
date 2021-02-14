@@ -3,7 +3,8 @@ import Sidebar from '../Sidebar/Sidebar';
 import Footer from '../Footer/Footer';
 import Main from '../Main/Main';
 import appStyles from './App.module.scss';
-import PageAbout from '../../pages/About/About';
+// import PageAbout from '../../pages/About/About';
+import PageServices from '../../pages/Services/Services';
 
 const App = () => {
     return (
@@ -12,7 +13,8 @@ const App = () => {
             <div className={appStyles.container}>
                 <Header />
                 <Main>
-                    <PageAbout></PageAbout>
+                    {/* <PageAbout></PageAbout> */}
+                    <PageServices></PageServices>
                 </Main>
                 <Footer />
             </div>
