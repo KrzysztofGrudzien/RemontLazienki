@@ -152,7 +152,7 @@ const PageServices = () => {
                     </div>
                 </div>
             </section>
-            v<span id='page-id'>02. usługi</span>
+            <span id='page-id'>02. usługi</span>
         </>
     );
 };
