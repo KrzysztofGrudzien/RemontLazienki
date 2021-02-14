@@ -6,7 +6,8 @@ import appStyles from './App.module.scss';
 // import PageAbout from '../../pages/About/About';
 // import PageServices from '../../pages/Services/Services';
 // import Page404 from '../../pages/404/404';
-import PageContact from '../../pages/Contact/Contact';
+// import PageContact from '../../pages/Contact/Contact';
+import PageGallery from '../../pages/Gallery/Gallery';
 
 const App = () => {
     return (
@@ -18,7 +19,8 @@ const App = () => {
                     {/* <PageAbout></PageAbout> */}
                     {/* <PageServices></PageServices> */}
                     {/* <Page404 /> */}
-                    <PageContact />
+                    {/* <PageContact /> */}
+                    <PageGallery />
                 </Main>
                 <Footer />
             </div>
