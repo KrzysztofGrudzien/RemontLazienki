@@ -1,0 +1,30 @@
+.template {
+    min-height: 6.5rem;
+    height: 100%;
+    position: relative;
+    width: 100%;
+
+    &CornerLeftTop {
+        left: 0;
+        position: absolute;
+        top: 0;
+    }
+
+    &CornerLeftBottom {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    &CornerRightTop {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    &CornerRightBottom {
+        bottom: 0;
+        right: 0;
+        position: absolute;
+    }
+}
